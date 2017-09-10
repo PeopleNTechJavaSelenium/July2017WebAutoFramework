@@ -3,12 +3,21 @@
 
 <suite name="Amazon Automation Test" parallel="false">
 
-<parameter name="url" value="https://www.amazon.com/"/>
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
+    <parameter name="url" value="http://amazon.com"/>
+
 
 <test name = "Amazon Home">
     <classes>
-        <class name="home.TestAmazonSearch"/>
         <!--<class name="home.TestAmazonSearch"/>-->
+        <!--<class name="search.SearchItems"/>-->
+        <class name="search.DropDownMenuSearch"/>
     </classes>
 </test>
 

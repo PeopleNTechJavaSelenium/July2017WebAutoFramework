@@ -1,16 +1,13 @@
 package home;
 
-import base.CommonAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
+import page.SearchItems;
 
-public class TestAmazonSearch extends CommonAPI{
+public class TestAmazonSearch extends SearchItems {
 
     @Test
-    public static void testHome(){
-        System.out.println(driver.getTitle());
-        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Java Books", Keys.ENTER);
-        System.out.println(driver.getCurrentUrl());
+    public void testHome(){
+     searchItems();
     }
+
 }
