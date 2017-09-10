@@ -13,6 +13,7 @@
     <module>Amazon</module>
     <module>Cnn</module>
         <module>Facebook</module>
+        <module>W3Schools</module>
 
     </modules>
 
@@ -37,6 +38,21 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>6.11</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>3.17-beta1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client</artifactId>
+                <version>1.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongo-java-driver</artifactId>
+                <version>3.6.0-beta1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
