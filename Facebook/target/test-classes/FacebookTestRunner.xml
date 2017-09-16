@@ -3,6 +3,12 @@
 
 <suite name="Facebook Automation Test" parallel="false">
 
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
 <parameter name="url" value="https://www.facebook.com/"/>
 
 <test name = "Facebook Home">

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="W3Schools Automation Test" duration-ms="7826" started-at="2017-09-16T14:35:38Z" finished-at="2017-09-16T14:35:46Z">
+    <groups>
+    </groups>
+    <test name="W3Schools SQL Table" duration-ms="7826" started-at="2017-09-16T14:35:38Z" finished-at="2017-09-16T14:35:46Z">
+      <class name="table.ReadTableData">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:table.ReadTableData@327471b5]" name="setUp" is-config="true" duration-ms="5371" started-at="2017-09-16T10:35:38Z" finished-at="2017-09-16T10:35:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.w3schools.com/sql/sql_alter.asp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTable()[pri:0, instance:table.ReadTableData@327471b5]" name="testTable" duration-ms="125" started-at="2017-09-16T10:35:43Z" finished-at="2017-09-16T10:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTable -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:table.ReadTableData@327471b5]" name="cleanUp" is-config="true" duration-ms="2308" started-at="2017-09-16T10:35:44Z" finished-at="2017-09-16T10:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- table.ReadTableData -->
+    </test> <!-- W3Schools SQL Table -->
+  </suite> <!-- W3Schools Automation Test -->
+</testng-results>

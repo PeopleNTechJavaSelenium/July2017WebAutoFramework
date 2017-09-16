@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook Automation Test" duration-ms="5416" started-at="2017-09-16T14:35:32Z" finished-at="2017-09-16T14:35:37Z">
+    <groups>
+    </groups>
+    <test name="Facebook Home" duration-ms="5416" started-at="2017-09-16T14:35:32Z" finished-at="2017-09-16T14:35:37Z">
+      <class name="home.TestFacebook">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestFacebook@6be46e8f]" name="setUp" is-config="true" duration-ms="5324" started-at="2017-09-16T10:35:32Z" finished-at="2017-09-16T10:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:home.TestFacebook@6be46e8f]" name="test1" duration-ms="8" started-at="2017-09-16T10:35:37Z" finished-at="2017-09-16T10:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestFacebook@6be46e8f]" name="cleanUp" is-config="true" duration-ms="62" started-at="2017-09-16T10:35:37Z" finished-at="2017-09-16T10:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TestFacebook -->
+    </test> <!-- Facebook Home -->
+  </suite> <!-- Facebook Automation Test -->
+</testng-results>

@@ -4,7 +4,7 @@
 <suite name="Amazon Automation Test" parallel="false">
 
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="Sierra"/>
@@ -16,8 +16,8 @@
 <test name = "Amazon Home">
     <classes>
         <!--<class name="home.TestAmazonSearch"/>-->
-        <!--<class name="search.SearchItems"/>-->
-        <class name="search.DropDownMenuSearch"/>
+        <class name="search.SearchItems"/>
+        <!--<class name="search.DropDownMenuSearch"/>-->
     </classes>
 </test>
 
