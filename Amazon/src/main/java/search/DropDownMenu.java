@@ -1,5 +1,8 @@
 package search;
 import base.CommonAPI;
+import reporting.ApplicationLog;
+import reporting.TestLogger;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +18,7 @@ public class DropDownMenu extends CommonAPI {
     }
 
     public void typeOnInputSearch(List<String> data)throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         for(int i=0; i<5; i++) {
             typeByCss("#twotabsearchtextbox", data.get(i));
             input();
@@ -30,6 +34,7 @@ public class DropDownMenu extends CommonAPI {
     }
 
     public void dropDownSearch()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> items = getMenus();
         typeOnInputSearch(items);
     }
