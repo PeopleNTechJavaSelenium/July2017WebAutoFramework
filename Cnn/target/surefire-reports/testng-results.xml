@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cnn Automation Test" duration-ms="10593" started-at="2017-09-16T14:35:20Z" finished-at="2017-09-16T14:35:30Z">
+    <groups>
+    </groups>
+    <test name="Cnn Home" duration-ms="10593" started-at="2017-09-16T14:35:20Z" finished-at="2017-09-16T14:35:30Z">
+      <class name="home.TestCnn">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestCnn@90f6bfd]" name="setUp" is-config="true" duration-ms="10145" started-at="2017-09-16T10:35:20Z" finished-at="2017-09-16T10:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://cnn.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:home.TestCnn@90f6bfd]" name="homePage" duration-ms="193" started-at="2017-09-16T10:35:30Z" finished-at="2017-09-16T10:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestCnn@90f6bfd]" name="cleanUp" is-config="true" duration-ms="229" started-at="2017-09-16T10:35:30Z" finished-at="2017-09-16T10:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TestCnn -->
+    </test> <!-- Cnn Home -->
+  </suite> <!-- Cnn Automation Test -->
+</testng-results>
