@@ -47,6 +47,10 @@
             <groupId>com.relevantcodes</groupId>
             <artifactId>extentreports</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

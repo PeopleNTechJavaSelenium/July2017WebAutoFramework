@@ -10,6 +10,7 @@
         <module name="Cnn" />
         <module name="Facebook" />
         <module name="Generic" />
+        <module name="RestApi" />
         <module name="W3Schools" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="Cnn" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.8" />
+      <module name="RestApi" target="1.8" />
       <module name="W3Schools" target="1.8" />
       <module name="Web-Automation-Framework" target="1.8" />
     </bytecodeTargetLevel>

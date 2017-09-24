@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RestApi Automation Test" parallel="false">
+
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="Windows"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
+    <parameter name="url" value="http://amazon.com"/>
+
+
+    <test name = "RestAPI Test">
+        <classes>
+            <class name="rest.EmployeeRestServices"/>
+        </classes>
+    </test>
+
+</suite>
