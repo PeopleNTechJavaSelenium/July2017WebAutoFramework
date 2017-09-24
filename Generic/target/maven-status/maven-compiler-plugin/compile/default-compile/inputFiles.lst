@@ -1,4 +1,8 @@
-C:\Users\PeopleNTech\IdeaProjects\Web-Automation-Framework\Generic\src\main\java\base\CommonAPI.java
-C:\Users\PeopleNTech\IdeaProjects\Web-Automation-Framework\Generic\src\main\java\utility\GoogleSheetReader.java
-C:\Users\PeopleNTech\IdeaProjects\Web-Automation-Framework\Generic\src\main\java\utility\DataReader.java
-C:\Users\PeopleNTech\IdeaProjects\Web-Automation-Framework\Generic\src\main\java\utility\ConnectDB.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/reporting/ApplicationLog.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/base/CommonAPI.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/reporting/TestLogger.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/reporting/ExtentManager.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/utility/DataReader.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/reporting/ExtentTestManager.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/utility/ConnectDB.java
+/Users/mrahman/develop/pnt/July2017WebAutoFramework/Generic/src/main/java/utility/GoogleSheetReader.java

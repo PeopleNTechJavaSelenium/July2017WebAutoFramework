@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestApi Automation Test" duration-ms="3051" started-at="2017-09-24T03:56:22Z" finished-at="2017-09-24T03:56:25Z">
+    <groups>
+    </groups>
+    <test name="RestAPI Test" duration-ms="3051" started-at="2017-09-24T03:56:22Z" finished-at="2017-09-24T03:56:25Z">
+      <class name="rest.EmployeeRestServices">
+        <test-method status="PASS" signature="apiCallResponseSingle()[pri:0, instance:rest.EmployeeRestServices@15975490]" name="apiCallResponseSingle" duration-ms="3038" started-at="2017-09-23T23:56:22Z" finished-at="2017-09-23T23:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiCallResponseSingle -->
+      </class> <!-- rest.EmployeeRestServices -->
+    </test> <!-- RestAPI Test -->
+  </suite> <!-- RestApi Automation Test -->
+</testng-results>
